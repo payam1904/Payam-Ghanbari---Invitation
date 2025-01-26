@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited!</title>
+    <style>
+        body {
+            font-family: "Helvetica", "Arial", sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background: #f2f2f2;
+            color: #333;
+        }
+        .invite {
+            background: #fff;
+            border: 2px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 50px auto;
+        }
+        h1, h2 {
+            margin: 0 0 10px;
+            font-weight: normal;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .rsvp {
+            display: block;
+            margin: 20px 0;
+            text-align: center;
+            padding: 10px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .rsvp:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="invite">
+        <h1>You're Invited!</h1>
+        <h2>Casual Friday Get-Together</h2>
+        <p>We'd love for you to join us for a relaxed evening to catch up and share some laughs.</p>
+        <ul>
+            <li><strong>Date:</strong> 9th February 2025</li>
+            <li><strong>Time:</strong> 7:00 PM</li>
+            <li><strong>Place:</strong> 45 Maple Street, London</li>
+        </ul>
+        <a href="#" class="rsvp">RSVP Here</a>
+    </div>
+</body>
+</html>
